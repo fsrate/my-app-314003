@@ -35,7 +35,7 @@ const config: NuxtConfig = {
       appId: '1:157656220463:web:9b2f0973700d8821c457da',
       measurementId: 'G-91L9B2GQ2X',
     },
-    onFirebaseHosting: false,
+    onFirebaseHosting: true,
     terminateDatabasesAfterGenerate: true,
     services: {
       auth: {
