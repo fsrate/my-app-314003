@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable */
 import { NuxtConfig } from '@nuxt/types'
 
 const isDev = process.env.NODE_ENV === 'development'
@@ -5,7 +7,7 @@ const useEmulators = false // manually change if emulators needed
 
 const config: NuxtConfig = {
   head: {
-    title: 'nuxt-firebase-demo',
+    title: 'my-app-314003',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -25,13 +27,13 @@ const config: NuxtConfig = {
   firebase: {
     lazy: false,
     config: {
-      apiKey: 'AIzaSyDa-YwgWTp2GDyVYEfv-XLb62100_HoEvU',
-      authDomain: 'nuxt-fire-demo.firebaseapp.com',
-      projectId: 'nuxt-fire-demo',
-      storageBucket: 'nuxt-fire-demo.appspot.com',
-      messagingSenderId: '807370470428',
-      appId: '1:807370470428:web:26da98c86c3fd352',
-      measurementId: 'G-XT6PVC1D4X',
+      apiKey: 'AIzaSyBE9l0lYeb3E8TEV8tSVlJiEumxjsr_46o',
+      authDomain: 'my-app-314003.firebaseapp.com',
+      projectId: 'my-app-314003',
+      storageBucket: 'my-app-314003.appspot.com',
+      messagingSenderId: '157656220463',
+      appId: '1:157656220463:web:9b2f0973700d8821c457da',
+      measurementId: 'G-91L9B2GQ2X',
     },
     onFirebaseHosting: false,
     terminateDatabasesAfterGenerate: true,
@@ -80,7 +82,7 @@ const config: NuxtConfig = {
           },
         ],
         fcmPublicVapidKey:
-          'BL_xoiuOe5vbb2vJkCNnuswn03NwCsyCkJUgRbuQA5tpg7J4E4z50MO8b-wrrad6fcysYAaFjHqU7D9o0oCWL8w',
+          'BBjKjior0YPp7ILivDjaM_pFDSAjJwyFBcHyv2tMU6DvnWjy-4TsYztHPaQDiwNv1c2JMx0s41Lf8-p9aNE8Og8',
       },
     },
   },
